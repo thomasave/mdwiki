@@ -489,8 +489,6 @@
         navbar += '<hr><div class="scontainer">';
         navbar +=   '<div class="pull-right md-copyright-footer"> ';
         navbar +=     '<span id="md-footer-additional"></span>';
-        navbar +=     'Website generated with <a href="http://www.mdwiki.info">MDwiki</a> ';
-        navbar +=     '&copy; Timo D&ouml;rr and contributors. ';
         navbar +=   '</div>';
         navbar += '</div>';
         var $navbar = $(navbar);
