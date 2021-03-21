@@ -279,7 +279,7 @@
             function build_link (url) {
                 if ($.md.util.hasMarkdownFileExtension (url))
                     return '#!' + url;
-                else if (!url.startsWith("http"))
+                else if (!url.startsWith("http") && !url.includes("."))
                     return '#!' + url + '.md';
                 else
                     return url;
