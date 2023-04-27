@@ -74,7 +74,7 @@
 
         marked.setOptions(options);
 
-        markdown = markdown.replace(/\n:[a-zA-Z-_]*:\n/g, "\n"); // Remove tags
+        markdown = markdown.replace(/\n:[a-zA-Z-_:]*:\n/g, "\n"); // Remove tags
         var uglyHtml = marked(markdown);
         console.log(uglyHtml);
         return uglyHtml;
