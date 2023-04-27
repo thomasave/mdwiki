@@ -19,7 +19,7 @@
     $.md.config = {
         title:  null,
         useSideMenu: true,
-        lineBreaks: 'gfm',
+        lineBreaks: 'original',
         additionalFooterText: '',
         anchorCharacter: '&para;',
         tocAnchor: '[ &uarr; ]'
